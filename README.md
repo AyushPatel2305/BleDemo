@@ -22,3 +22,13 @@ This is demo for Bluetooth Low Energy(BLE) devices makes it possible to scan & c
 2. Click on Discover to get all available and paired devices
 3. Click on any BLE device and pair with it.
 4. After device is paired click on Discover and click on Paired Device to get Device Data.
+
+**Features**
+==================
+- Turn on/off Device Bluetooth
+- Scan BLE Devices
+- Pair with BLE Devices
+- Read Raw data of BLE Device
+- Save Raw data to local Database using ROOM
+- Save Raw Data to cloud Database 
+- Get Push Notification when data is sucessfully uploaded to cloud
