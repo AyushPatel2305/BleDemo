@@ -1,11 +1,13 @@
 **DeviceHive Android Gateway for BLE devices**
 --------------------------------
 
-This is demo for Bluetooth Low Energy(BLE) devices makes it possible to scan & connect with BLE devices. It also saves BLE raw data to local database & calls api to save database to cloud.
+This is demo for Bluetooth Low Energy(BLE) devices makes it possible to scan & connect with BLE devices. It also saves BLE raw data to local database & calls api to save database to cloud.<br>
+
+[Demo Video](https://drive.google.com/file/d/1HxOtPsGNLujUC6DqwYlv0zBvQbbGR5Bp/view?usp=sharing)<br>
 
 **Setup**
 ==================
-1. Clone project to android studio
+1. Clone project from <i>master</i> branch to android studio
 2. Build project<br>
 ### Changes in FragmentHome & DevicesFragment<br>
 4. Change UUIDs in <i>onServicesDiscovered()</i> & in <i>onDescriptorWrite()</i> to the UUIDs of the BLE devices you want to use. (Note: This project contains UUIDs of Noise Colorfit Pro 2 fitness band)<br>
