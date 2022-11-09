@@ -19,7 +19,7 @@ class TestConnectionAdapter(val list: List<SyncDataModel>) :
                     TimeZone.getDefault()
                 )
             }
-            binding.tvMessage.text = "Data Obtained from ${syncDataModel.deviceName}"
+            binding.tvMessage.text = "Data Obtained from ${syncDataModel.deviceName}\n${syncDataModel.data}"
 
             binding.root.setOnClickListener {
 //                Snackbar.make(
